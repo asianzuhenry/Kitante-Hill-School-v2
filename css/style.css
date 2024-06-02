@@ -29,7 +29,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-footer p{
+footer p {
   color: rgb(0, 0, 0);
   font-size: larger;
   text-align: center;
@@ -39,23 +39,23 @@ footer p{
 .about-section,
 .gullery-section,
 .contact-section {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 .home-section {
-    background-color: #9c3636;
+  background-color: #9c3636;
 }
 
 .about-section {
-    background-color: #399c36;
+  background-color: #399c36;
 }
 
 .gullery-section {
-    background-color: #38369c;
+  background-color: #38369c;
 }
 
 .contact-section {
-    background-color: #929c36;
+  background-color: #929c36;
 }
 
 main {
@@ -100,15 +100,16 @@ main {
 }
 
 @keyframes merge {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    40% {
-        transform: rotate(20deg);
-    }
-    70% {
-        transform: rotate(-20deg);
-    }
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(20deg);
+  }
+  70% {
+    transform: rotate(-20deg);
+  }
 }
 
 .wrapper {
@@ -121,12 +122,12 @@ main {
 }
 
 .section-heading {
-    width: 100%;
-    height: fit-content;
-    font-size: 20px;
-    background-color: #fff;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding:20px;
+  width: 100%;
+  height: fit-content;
+  font-size: 20px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
