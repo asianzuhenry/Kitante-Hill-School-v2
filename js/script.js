@@ -17,6 +17,10 @@ const Pages = [
     }
 ]
 
+const Span = document.querySelector('#span')
+Span.textContent = new Date().getFullYear()
+
+
 const LI = document.querySelectorAll('li')
 const WRAPPER = document.querySelector('.wrapper section h3')
 
@@ -30,9 +34,10 @@ LI.forEach(Li => {
                 })
             }
             if (page.id === Li.id) {
-                WRAPPER.innerText = page.Text;
+                WRAPPER.textContent = page.Text;
             }
             Li.classList = 'current'
+
 
         })
     })

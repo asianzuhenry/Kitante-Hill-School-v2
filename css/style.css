@@ -17,17 +17,47 @@ footer {
   width: 100%;
   top: 0;
 }
+header {
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer {
   font-size: larger;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-footer {
+footer p{
   color: rgb(0, 0, 0);
   font-size: larger;
   text-align: center;
 }
+
+.home-section,
+.about-section,
+.gullery-section,
+.contact-section {
+    height: 100vh;
+    width: 100%;
+}
+.home-section {
+    background-color: #9c3636;
+}
+
+.about-section {
+    background-color: #399c36;
+}
+
+.gullery-section {
+    background-color: #38369c;
+}
+
+.contact-section {
+    background-color: #929c36;
+}
+
 main {
   height: 80vh;
 }
@@ -84,6 +114,19 @@ main {
 .wrapper {
   background-color: whitesmoke;
   width: 100%;
-  padding: 12px;
   transition: 1s;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.section-heading {
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
 }
