@@ -66,15 +66,18 @@ main {
 .navigation ul li.current {
   background-color: rgb(29, 29, 29);
   transition: 1s;
-  animation: merge 0.5s ease-in-out 0s 1 alternate forwards;
+  animation: merge 0.8s ease-in-out 0s 1 alternate forwards;
 }
 
 @keyframes merge {
     0%, 100% {
         transform: rotate(0deg);
     }
-    50% {
-        transform: rotate(180deg);
+    40% {
+        transform: rotate(20deg);
+    }
+    70% {
+        transform: rotate(-20deg);
     }
 }
 
