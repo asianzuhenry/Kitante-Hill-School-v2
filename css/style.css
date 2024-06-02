@@ -45,18 +45,18 @@ main {
   height: 100%;
   display: flex;
   justify-content: center;
-  padding: 12px;
+  padding: 20px;
 }
 .navigation ul {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 .navigation ul li {
   background-color: rgb(143, 143, 143);
   width: 50px;
   height: 50px;
-  border-radius: 8px;
+  border-radius: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,11 +64,23 @@ main {
   cursor: pointer;
 }
 .navigation ul li.current {
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(29, 29, 29);
+  transition: 1s;
+  animation: merge 0.5s ease-in-out 0s 1 alternate forwards;
+}
+
+@keyframes merge {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
 }
 
 .wrapper {
   background-color: whitesmoke;
   width: 100%;
   padding: 12px;
+  transition: 1s;
 }
